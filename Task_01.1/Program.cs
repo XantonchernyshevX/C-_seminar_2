@@ -27,8 +27,6 @@ else
     System.Console.WriteLine("second");
 }
 
-
-
 int GetFirstDigit(int number){return number/10;}
 
 int GetSecondDigit(int number){return number % 10;}
