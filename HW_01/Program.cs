@@ -5,7 +5,7 @@
 
 Console.Clear();
 Console.Write("Введите трехзначное число: ");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse((Console.ReadLine()));
 if(a >= 100 & a < 1000)
 {
     Console.Write($"Вторая цифра в числе {a}: ");
